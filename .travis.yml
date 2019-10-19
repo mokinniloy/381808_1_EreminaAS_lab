@@ -6,8 +6,9 @@ before_script:
   - mkdir ../build
   - cd ../build
 script:
-  - cmake ../3818
+  - cmake ../381808_1_EreminaAS_lab
   - make -j
-  - ./vector/vector
+  - ls
+  - ./Test
 notifications:
   email: false
